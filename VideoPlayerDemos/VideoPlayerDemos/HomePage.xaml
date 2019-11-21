@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VideoPlayerDemos.HomePage"
+             Title="Main">
+    <StackLayout>
+        <Button Text="Go see video" Clicked="Button1_Click" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
+        </Button>
+        <Button Text="Go to Entry" Clicked="Button2_Click" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
+        </Button>
+        <Button Text="Go to Editor" Clicked="Button3_Click" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" >
+        </Button>
+    </StackLayout>
+</ContentPage>
